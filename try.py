@@ -12,8 +12,7 @@ length_list = [len(x) for x in data]
 max_width = max(length_list)
 
 cell_bold = workbook.add_format({'bold': True, 'center_across': True, 'bg_color': '#f0f0c7'})
-cell_grey = workbook.add_format()
-cell_grey.set_bg_color('#D3D3D3')
+cell_grey = workbook.add_format({'bg_color' : '#D3D3D3'})
 
 for item in data:
 	worksheet.write(row, 0, item, cell_bold)
