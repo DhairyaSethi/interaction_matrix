@@ -1,5 +1,3 @@
-# interaction_matrix
+### Interaction Analysis 
 
-done, hosted at https://cjamie.pythonanywhere.com/     
-
-also, used FlaskSSLify on pythonanywhere to send POST req on HTTPS, not here in the code.
+Flask Server to generate an interaction matrix for specified components.
